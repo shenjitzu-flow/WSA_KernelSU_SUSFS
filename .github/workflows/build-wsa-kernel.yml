@@ -82,7 +82,7 @@ jobs:
           echo "Cloning AnyKernel3 and other dependencies..."
 
           # Define the branch names using the inputs values
-          ANYKERNEL_BRANCH="${{ inputs.android_version }}-${{ inputs.kernel_version }}"
+          ANYKERNEL_BRANCH="gki-2.0"
           SUSFS_BRANCH="gki-${{ inputs.android_version }}-${{ inputs.kernel_version }}"
 
           # Debug print the branches
